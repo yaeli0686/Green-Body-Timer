@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Counter = ({ counter, text, max }) => {
     if (!counter || !text || !max) return null;

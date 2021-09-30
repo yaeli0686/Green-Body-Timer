@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const MainTimer = ({ time }) => {
     return (
-        <div>
+        <div className="digits">
             {time}s
         </div>
     );
