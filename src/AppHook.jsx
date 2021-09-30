@@ -79,7 +79,8 @@ const App = () => {
         <Counter counter={setsCounter} max={defaults.maxSets} text={"סט"}></Counter>
       </div>
 
-      // show only at resting-time of the final-set:
+      {/* shows only at resting-time of the final-set: */}
+
       {workingTime < 0 && setsCounter === defaults.maxSets && <SwitchAlert />}
     </div>
   );
