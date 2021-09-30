@@ -32,7 +32,7 @@ const App = () => {
     // componentDidMount:
     const interval = setInterval(() => {
       tik();
-    }, 300);
+    }, 1000);
     // componentWillUnmount (returns clean-up function):
     return () => clearInterval(interval);
   });
@@ -63,6 +63,7 @@ const App = () => {
     }
   }
 
+  //display the working-time or resting-time - each one at its turn:
   let getTimerTime = () => {
     return workingTime >= 0 ? workingTime : restingTime;
   }
@@ -77,9 +78,9 @@ const App = () => {
         <Counter counter={exerciseCounter} max={defaults.maxExercise} text={"תרגיל"}></Counter>
         <Counter counter={setsCounter} max={defaults.maxSets} text={"סט"}></Counter>
       </div>
-      <SwitchAlert />
-      {/* {workingTime < 0 && setsCounter === defaults.maxSets && <SwitchAlert />} */}
 
+      // show only at resting-time of the final-set:
+      {workingTime < 0 && setsCounter === defaults.maxSets && <SwitchAlert />}
     </div>
   );
 }
