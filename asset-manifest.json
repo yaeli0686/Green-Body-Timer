@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Green-Body-Timer/static/css/main.5bcf2ff1.chunk.css",
-    "main.js": "/Green-Body-Timer/static/js/main.bf571721.chunk.js",
-    "main.js.map": "/Green-Body-Timer/static/js/main.bf571721.chunk.js.map",
+    "main.js": "/Green-Body-Timer/static/js/main.4c2f88fe.chunk.js",
+    "main.js.map": "/Green-Body-Timer/static/js/main.4c2f88fe.chunk.js.map",
     "runtime-main.js": "/Green-Body-Timer/static/js/runtime-main.3a021fd9.js",
     "runtime-main.js.map": "/Green-Body-Timer/static/js/runtime-main.3a021fd9.js.map",
     "static/js/2.766e9793.chunk.js": "/Green-Body-Timer/static/js/2.766e9793.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3a021fd9.js",
     "static/js/2.766e9793.chunk.js",
     "static/css/main.5bcf2ff1.chunk.css",
-    "static/js/main.bf571721.chunk.js"
+    "static/js/main.4c2f88fe.chunk.js"
   ]
 }
